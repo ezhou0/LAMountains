@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.link{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+   
+    
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Lato";
+    
+   margin-left: 100px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fefeff;
+    
+    
+}
+#nav1{
+     color: #fefeff;
+}
+#nav1:hover{
+    text-decoration: none;
+}
+#nav2:hover{
+    text-decoration: none;
+}
+
+.container-1{
+     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/mainmountain.jpg');
+    margin: 0;
+    padding:0;
+    height: 825px;
+    
+   
+}
+
+.container-1-content{
+    display:flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.title{
+    font-size: 115px;
+    letter-spacing: 1px;
+    line-height: 124px;
+    color: #4d4d4d;
+    font-family: "Bebas"; 
+}
+
+.title-sub{
+     font-size: 115px;
+    letter-spacing: 1px;
+    line-height: 124px;
+    color: #414f6b;
+    font-family: "Bebas"; 
+}
+
+.nav-2-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-2-name{
+   font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #4d4d4d;
+    font-family: "Bebas";
+    padding-left: 5px;
+}
+#nav2{
+    color: #4d4d4d;
+     border-bottom: 1px solid #4d4d4d;
+     padding-bottom: 2px;
+}
+
+
+.container-2{
+     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/peak.jpg');
+    margin: 0;
+    padding:0;
+    height: 825px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-ct{
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 50%;
+    border: 1px solid #bcc3c6;
+}
+
+.num-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.num{
+    font-size: 136px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald";
+    opacity: .7;
+}
+
+.num-title{
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald";
+    margin-left: -25px;
+    margin-top: 65px;
+}
+.content{
+width: 814px;
+height: 339px;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+font-weight: 300;
+font-family: "Lato";
+}
+
+.carousel-container{
+    width: 100%;
+    height: 190px;
+    background-color: #3c475f;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+#slide-1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+#carousel-pic{
+    height:135px;
+    width: 220px;
+    padding:10px;
+    opacity: 1;
+}
+
+
+.title-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-02{
+    height: 185px;
+    width: 650px;
+    padding-top:50px;
+   
+    margin-left: 20px;
+}
+
+.mt-tb-control{
+   background-color: #414f6b;
+   height: 50px;
+   padding-left:320px;
+}
+.nav{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+     font-weight: 600;
+    font-family: "Oswald";
+    font-size: 33;
+
+}
+
+#nav-pill .active{
+    background-color: #b0b4be;
+    text-decoration: underline;
+    color:#414f6b;
+}
+
+
+.nav a{
+    text-align: center;
+    line-height: 34px;
+    color:#b0b4be;
+}
+
+.nav a:hover{
+   color:#b0b4be;
+}
+.container-3{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/mt1.png');
+    margin: 0;
+    padding:0;
+    height: 825px;
+}
+
+.container-4{
+     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/mt2.png');
+    margin: 0;
+    padding:0;
+    height: 825px;
+}
+
+.schedule-container{
+      width: 361px;
+    height: 219px;
+    background-color: #eceff2;
+    opacity: .8;
+    margin-left:351px;
+    margin-top: 100px;
+}
+.schedule-title{
+    color:#414f6b;
+    font-weight: 600;
+    font-family: "Oswald";
+    font-size: 33;
+    margin-left: 40px;
+    padding-top: 24px;
+}
+.schedule-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.schedule-title{
+    font-size: 32px;
+color: #414f6b;
+font-weight: 700;
+font-family: "Oswald";
+}
+
+ul li{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Lato";
+}
+
+.footer{
+    background-color: #414f6b;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 13px;
+}
+.nav-3-logo{
+    opacity: .7;
+    color: #fefeff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-2-name{
+   font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #fefeff;
+    font-family: "Bebas";
+    padding-left: 5px;
+}
+
+.footer  .copyright{
+    opacity: .7;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #fefeff;
+    font-family: "Bebas";
+    padding-left: 5px;
+}
